@@ -2,7 +2,7 @@ const { parseEvent, parseTicks } = require("@laihoe/demoparser2");
 const readline = require("readline");
 const { generate } = require("./ai");
 
-const demoPath = "resource/demo.dem";
+const demoPath = "../resource/demo.dem";
 
 const rl = readline.createInterface({
     input: process.stdin,
